@@ -18,6 +18,37 @@ This repo is here to help you use your Dasung e-Ink monitor with your Raspberry 
 
 4. Run the `bin/startup` command. This should adjust your color pallette to give you a white-on-black screen with a virtual resolution of 512 x 384.
 
+## Config.txt
+
+```bash
+# uncomment if you get no picture on HDMI for a default "safe" mode
+#hdmi_safe=1
+
+# uncomment this if your display has a black border of unused pixels visible
+# and your display can output without overscan
+#disable_overscan=1
+
+# uncomment the following to adjust overscan. Use positive numbers if console
+# goes off screen, and negative if there is too much border
+#overscan_left=16
+#overscan_right=16
+#overscan_top=16
+#overscan_bottom=16
+
+# Dasung Paperlike HD-FT 
+# https://www.indiegogo.com/projects/first-e-ink-monitor-with-front-light-touch
+sdtv_aspect=3
+hdmi_force_hotplug=1
+hdmi_group=2
+hdmi_mode=87
+hdmi_cvt=2200 1650 60 6 0 0 0
+hdmi_drive=1
+max_usb_current=1
+max_framebuffer_height=1650
+hdmi_timings=2200 1 26 4 50 1650 1 8 2 6 0 0 0 60 0 135580000 
+```
+
 ---
 
 [Blog](https://f1lt3r.io) | [Instagram](https://www.instagram.com/f1lt3r/)
+
