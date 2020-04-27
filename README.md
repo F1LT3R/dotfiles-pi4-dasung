@@ -35,6 +35,16 @@ This repo is here to help you use your Dasung e-Ink monitor with your Raspberry 
 #overscan_top=16
 #overscan_bottom=16
 
+#framebuffer_width=1280
+#framebuffer_height=720
+
+# uncomment to force a specific HDMI mode (this will force VGA)
+hdmi_group=2
+
+# uncomment to increase signal to HDMI, if you have interference, blanking, or
+# no display
+config_hdmi_boost=1
+
 # Dasung Paperlike HD-FT 
 # https://www.indiegogo.com/projects/first-e-ink-monitor-with-front-light-touch
 sdtv_aspect=3
