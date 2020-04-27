@@ -1,0 +1,2 @@
+# Backup files to your SD card where they can be read from another device.
+sudo cp -r files /boot/
