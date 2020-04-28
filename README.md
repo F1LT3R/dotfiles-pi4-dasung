@@ -4,6 +4,8 @@
 
 This repo is here to help you use your Dasung e-Ink monitor with your Raspberry PI.
 
+Watch the YouTube video here: https://www.youtube.com/watch?v=2MOPYDlvA5Y&feature=youtu.be
+
 ## Steps
 
 1. Copy the parts of the [`config.txt`](config.txt) you need to the `config.txt` file on your boot SD card.
