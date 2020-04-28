@@ -4,7 +4,8 @@
 
 This repo is here to help you use your Dasung e-Ink monitor with your Raspberry PI.
 
-Watch the YouTube video here: https://www.youtube.com/watch?v=2MOPYDlvA5Y&feature=youtu.be
+Watch the YouTube video here:
+https://www.youtube.com/watch?v=2MOPYDlvA5Y
 
 ## Steps
 
